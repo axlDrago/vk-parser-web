@@ -2,15 +2,15 @@
 
 Веб приложение Парсер ВК. Планируется к добавлению Instagram с автопостингом.
 
-В файле param.php указать данные приложения ВК:
-'client_id' => '',
-'redirect_uri' => '', можно указать ip адрес контейнера
-'client_secret' => '',
+В файле param.php указать данные приложения ВК:<br/> 
+'client_id' => '', <br/> 
+'redirect_uri' => '', можно указать ip адрес контейнера<br/> 
+'client_secret' => '',<br/> 
 
 # Старт приложения:
-из корня
-	1. composer install
-	2. docker-compose up -d
-	3. docker-compose run php migrate
+из корня<br/> 
+	1. composer install<br/> 
+	2. docker-compose up -d<br/> 
+	3. docker-compose run php migrate<br/> 
 
 Приложение доступно по адресу localhost:8000
